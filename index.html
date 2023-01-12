@@ -13,12 +13,14 @@
     <p>Enter your age or gender(male/female/nonbinary) and we'll show you the perfect celeb</p>
 
     <!-- Form for user input -->
+  <form id="userInfo">
     <p id="error-message" class="hidden">Please enter an age and gender in whole numbers with correct spelling. </p>
     <label for="age">Age</label>
     <input id="age" type="text" name="age">
     <label for="gender">gender</label>
     <input id="gender" type="text" name="gender">
     <button type="submit">Take me to my perfect celeb </button>
+  </form>
 
     <div id="georgeClooney" class="hidden">
       <h1>You are below 50 and are male</h1>
@@ -45,13 +47,10 @@
       <p>Your perfect would celebrity date be Michael Jordan</p>
     </div>
 
-    <div id="donaldGlover">
+    <div id="donaldGlover" class="hidden">
       <h1>You are amove 50 and are non binary</h1>
       <p>Your perfect would celebrity date be Donald Glover</p>
     </div>
-
-
-
   </div>
 
   
