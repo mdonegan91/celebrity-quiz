@@ -18,7 +18,7 @@ _A website to test and practice branching with JavaScript._
 
 * _Clone this repository to your desktop_
 * _Navigate to the top level of the directory_
-* _Open animal-wiki.html in your browser_
+* _Open index.html in your browser_
 
 ## Known Bugs
 
